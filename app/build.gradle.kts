@@ -33,10 +33,19 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
 
+    //способ 1 DialogSheet
+//    implementation("com.github.marcoscgdev:DialogSheet:2.2.0")
+    //3
+    implementation("com.makeramen:roundedimageview:2.3.0")
+    //4 Material.io
+    implementation("com.google.android.material:material:1.11.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

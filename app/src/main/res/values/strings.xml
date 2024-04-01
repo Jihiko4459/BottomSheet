@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">BottomSheet</string>
+
+    <!--1 способ DialogSheet-->
+    <string name="label_show1">Show DialogSheet1</string>
+    <string name="label_show2">Show DialogSheet2</string>
+    <string name="label_show3">Show DialogSheet3</string>
+    <string name="label_show4">Show DialogSheet4</string>
+    <string name="label_loren">
+        Loren ipsum dolor sit amet, consectetur adipisicing elit.
+        Accusamus adipisci dolor, dolore ducimus eaque earum eveniet ex excepturi iusto laborum natus
+        nulla numquam perspiciatis
+    </string>
+    <string name="label_ok">Ok</string>
+    <string name="label_cancel">Cancel</string>
 </resources>
