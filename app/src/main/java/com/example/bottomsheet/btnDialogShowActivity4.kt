@@ -18,10 +18,11 @@ class btnDialogShowActivity4 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+        //BottomSheetBehavior - Плагин поведения взаимодействия для дочернего представления
+        // CoordinatorLayout, чтобы оно работало как BottomSheet (https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetBehavior)
         BottomSheetBehavior.from(findViewById<FrameLayout>(R.id.sheet)).apply{
-            peekHeight=250
-            this.state=BottomSheetBehavior.STATE_COLLAPSED
+            peekHeight=250//Устанавливаем высоту BottomSheet, когда он свернут
+            this.state=BottomSheetBehavior.STATE_COLLAPSED//Устанавливаем состояние, чтобы BottomSheet мог перетаскиваться
 
         }
 

@@ -34,12 +34,15 @@ class btnDialogShowActivity2 : AppCompatActivity() {
 
     }
     private fun showBottomSheet(){
-        val dialogView=layoutInflater.inflate(R.layout.bottom_sheet2, null)
-        dialog=BottomSheetDialog(this@btnDialogShowActivity2, R.style.BottomSheetDialogTheme)
-        dialog.setContentView(dialogView)
+        val dialogView=layoutInflater.inflate(R.layout.bottom_sheet2, null)//создали неизменную переменную dialogView,
+        // которая хранит разметку нашего BottomSheet
+        dialog=BottomSheetDialog(this@btnDialogShowActivity2, R.style.BottomSheetDialogTheme)//присвоили значение переменной dialog,
+        // обьекта класса BottomSheetDialog, указав контекст и ссылку на тему
+        dialog.setContentView(dialogView)//установить dialogView,
+        // в котором хранится разметка нашего BottomSheet, в dialog
         recView=dialogView.findViewById(R.id.rec)
         itemAdapter= ItemAdapter(list)
         recView.adapter=itemAdapter
-        dialog.show()
+        dialog.show()//показать bottomSheetDialog
     }
 }

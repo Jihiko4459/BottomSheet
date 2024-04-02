@@ -5,7 +5,6 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
     <!--2 и 3 -->
-    <!--Предназначены для -->
 
     <style name="Theme.BottomSheet" parent="Base.Theme.BottomSheet" />
    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">

@@ -41,7 +41,7 @@ android {
 dependencies {
 
     //способ 1 DialogSheet
-//    implementation("com.github.marcoscgdev:DialogSheet:2.2.0")
+    implementation("com.github.marcoscgdev:DialogSheet:2.2.0")
     //3
     implementation("com.makeramen:roundedimageview:2.3.0")
     //4 Material.io

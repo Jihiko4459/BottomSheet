@@ -6,13 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".btnDialogShowActivity4">
+    <!--
+    устанавливаем поведение для framelayout, чтобы оно было привязано внизу экрана и
+    чтобы приложение не крашнулось
+     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    -->
 
     <FrameLayout
         android:id="@+id/sheet"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
-        android:background="@drawable/rounded">
+        android:background="@drawable/rounded4">
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
